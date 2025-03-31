@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akende Müük ja Paigaldus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #005f73;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background: #0a9396;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .section {
+            padding: 20px;
+            background: white;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #005f73;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            background: #0a9396;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Akende Müük, Paigaldus ja Utiliseerimine</h1>
+    </header>
+    <nav>
+        <a href="#teenused">Teenused</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="container">
+        <section id="teenused" class="section">
+            <h2>Meie Teenused</h2>
+            <ul>
+                <li>Akende müük</li>
+                <li>Akende paigaldus</li>
+                <li>Vanade akende utiliseerimine</li>
+            </ul>
+        </section>
+        <section id="kontakt" class="section">
+            <h2>Võta Meiega Ühendust</h2>
+            <form class="contact-form" action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+                <input type="text" name="name" placeholder="Teie Nimi" required>
+                <input type="email" name="email" placeholder="Teie E-post" required>
+                <textarea name="message" rows="5" placeholder="Teie sõnum" required></textarea>
+                <button type="submit">Saada</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Akende Teenused. Kõik õigused kaitstud.</p>
+    </footer>
+</body>
+</html>
+
